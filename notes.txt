@@ -1,0 +1,49 @@
+1. Authentication & User Management
+   => OAuth2 / Social Logins => Let users sign in via Google, Facebook, GitHub, LinkedIn, etc
+   Step 1 => composer require laravel/socialite
+   Next all codes available in this project
+2. Communication APIs
+   => Twilio => Laravel Twilio OTP (chat gpt chat box name) // intha step follow panna podhum.
+      * ivanga sms, email, whatsapp ipti neraya features tharanga.
+      * ithukku confirm from phone number buy panniye aaganum.
+
+   => MSG91 => Pending (Difficult to integrate) Visit => https://www.vfixtechnology.com/how-to-verify-contact-form-with-otp-on-phone-and-stop-spam-in-laravel
+   
+   => 2Factor => Completed. 
+      * Template onnu first create pannaum. site:https://2factor.in/CP/review_trans_sender_ids_list.php?tab=1
+      * First call la otp soldrathu work aagum. Next thaan sms kku aprroval panna apram thaan phone kku otp varum. Itha template status la check pannnaum.
+      * Api docs la postman la api's run pandra maathiri irukkum. Test panna use pannikkalam.
+      * Project vulla irukka codes correct aa work aaguthu.
+      * DLT ngrathu jio, vodafone.. ipti ivanga kitta account create panni use pandrathu.
+
+   => Fast2SMS => Paid Version But Completed code here.
+
+   => SendGrid(Email notification) => Completed code here 
+      * Intha platform Twilio avangalodathu.
+      * Local la mail anuppa Single Sender Verification create panni antha email and from name la intha values aa kudukkanum.
+      * Live domain kku correct aa work aagum.
+
+   => FCM Push Notifivcation => Completed Code here
+      * firebase la poittu project add panni oru key generate panni tha use pannikkalam.
+      * ithu yepti work aagum na , ovveru mobile kkum , oru device token irukkum.So intha token aa namma default aa table la store panni vachikkanum. ithu kku thai api app kku kudukkanum.Then intha token kku namma notification send pannikkalam.Sms maathiri thaan , but sms offline la varum , ithu internet iruntha thaan notification pogum.
+
+
+3. Government & Verification APIs (India specific)
+   => DigiLocker => Paid Version.
+      * Local la laam test panna mudiyathu, only for live thaan. Rompa secure aa namma datas kudutha apram thaan, namakku secret key laam. Tharuvaanga. Just learn pannikkurathukkaga, ithukku instead aa SETU nu third party aa use pannikkalam.
+
+   => SETU => Free Version. Aaadhaar verify completed codes here.
+      * https://docs.setu.co/data/digilocker/api-reference  // api reference
+
+4. Payment Gateways
+    => PayPal => Learned => Account creation la neraya things kekuranga, so account create pannala.
+
+5. Type Form => Ithu oru third party, ithu oru form aa create panni url tharum , antha url la browse pannum pothu, antha form varum.ipo antha form submit pannathum. datas oru api kkulla maathiri avangale store panni vachiruppanga , Itha namma fetch panna oru api tharanga , atha fetch panni namma use pannikkalam, Devaina table la kooda store pannikkalam.
+
+6. DevOps & Utility APIs
+
+   => Devops => completed codes here. Inga namma yellame code la write pannittom, jsut project voda url path aa call panni repo create delete pust commit ipti imporatant aana codes yellam panniyachi.Ithu same for gitlab. 
+
+7. AI, Search & Utility APIs (Advanced)
+
+   => Elasticsearch => completed codes here. Intha search engine thaan famous sites kku use pandranga, like flipcart, amazon, etc.
