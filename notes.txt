@@ -22,6 +22,8 @@
       * Intha platform Twilio avangalodathu.
       * Local la mail anuppa Single Sender Verification create panni antha email and from name la intha values aa kudukkanum.
       * Live domain kku correct aa work aagum.
+        MAIL_USERNAME=apikey (ithu vanthu constant. iptiye direct aa podanum.)
+        MAIL_PASSWORD=SG.xxxxxxxxxxxxx (ithu namma account la vulla api key)
 
    => FCM Push Notifivcation => Completed Code here
       * firebase la poittu project add panni oru key generate panni tha use pannikkalam.
